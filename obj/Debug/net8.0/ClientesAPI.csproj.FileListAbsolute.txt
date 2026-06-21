@@ -106,3 +106,4 @@ C:\Users\manue\Desktop\Aplicacion Movil\ClientesAPI\obj\Debug\net8.0\refint\Clie
 C:\Users\manue\Desktop\Aplicacion Movil\ClientesAPI\obj\Debug\net8.0\ClientesAPI.pdb
 C:\Users\manue\Desktop\Aplicacion Movil\ClientesAPI\obj\Debug\net8.0\ClientesAPI.genruntimeconfig.cache
 C:\Users\manue\Desktop\Aplicacion Movil\ClientesAPI\obj\Debug\net8.0\ref\ClientesAPI.dll
+C:\Users\manue\Desktop\Aplicacion Movil\ClientesAPI\obj\Debug\net8.0\ClientesAPI.sourcelink.json
