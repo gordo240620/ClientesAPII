@@ -48,6 +48,11 @@ namespace ClientesAPI.Controllers
                 return BadRequest("La clave ya existe.");
             }
 
+            cliente.FechaNacimiento = DateTime.SpecifyKind(
+                cliente.FechaNacimiento,
+                DateTimeKind.Utc
+            );
+
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
 
@@ -69,6 +74,11 @@ namespace ClientesAPI.Controllers
             {
                 return NotFound();
             }
+
+            cliente.FechaNacimiento = DateTime.SpecifyKind(
+                cliente.FechaNacimiento,
+                DateTimeKind.Utc
+            );
 
             existe.Nombre = cliente.Nombre;
             existe.Edad = cliente.Edad;
